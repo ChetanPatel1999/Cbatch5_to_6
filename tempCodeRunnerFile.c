@@ -1,1 +1,3 @@
-um%8
+
+    lable:
+    printf("%d\n",i);
