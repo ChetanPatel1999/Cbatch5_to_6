@@ -18,11 +18,14 @@ void sub()
 }
 void main()
 {
- sub();
- printf("hi main\n");
- add();// fuction calling
- printf("again main\n");
- add();
+ int num;
+ num=2;
+ switch(num)
+ {
+    case 1: add();break;
+    case 2: sub(); break;
+    default:printf("please enter 1 or 2 ");
+ }
 }
 
 
