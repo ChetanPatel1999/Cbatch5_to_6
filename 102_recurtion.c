@@ -5,9 +5,10 @@ void main()
 {
   static int i=1;// its run only one time in
   printf("hello world institute\n");
-  i++;
+  i++;//6
   if(i<=5)
   {
-    main();
+    main(); 
+
   }
 }
