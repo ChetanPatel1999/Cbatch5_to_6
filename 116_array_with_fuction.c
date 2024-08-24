@@ -9,6 +9,7 @@ int arrsum(int a[], int s)
     }
     return sum;
 }
+
 int arrmax(int a[],int s)
 {
     int i, max=a[0];
@@ -56,6 +57,5 @@ void main()
     arrdisp(arr3,2);
     revarrdisp(arr1,5);
     revarrdisp(arr2,4);
-    revarrdisp(arr3,2);
-    
+    revarrdisp(arr3,2);  
 }
