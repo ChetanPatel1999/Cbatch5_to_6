@@ -10,5 +10,4 @@ void main()
  ptr++;
  printf("adress of a : %d\n",&a);//1236
  printf("ptr value : %d\n",ptr);//1240
-
 }
