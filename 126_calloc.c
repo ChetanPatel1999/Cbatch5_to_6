@@ -8,7 +8,7 @@ void main()
  int n;
  printf("enter dyanamic array size :");
  scanf("%d",&n);
- ptr=(int*)malloc(n*sizeof(int));
+ ptr=(int*)calloc(n,sizeof(int));
  temp=ptr;
  //11 22 33 44 55
  printf("enter dyanamic array element :");

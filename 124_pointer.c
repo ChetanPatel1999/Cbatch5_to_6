@@ -10,7 +10,7 @@ void main()
  for(i=0;i<5;i++)//5
  {
     scanf("%d",ptr);
-    ptr++;//420
+    ptr++;//404
  }
  ptr=&arr[0];
  printf("array element are : ");
